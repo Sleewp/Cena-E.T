@@ -1,6 +1,6 @@
 <h1>Cena-E.T</h1>
 
- ##proposta da atividade 
+ <h2>proposta da atividade</h2> 
 
  pegar cenas específicas de um filme e transformar em uma cena.
 
