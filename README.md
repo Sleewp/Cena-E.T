@@ -4,14 +4,14 @@
 
  pegar uma cena específica de um filme e transformar em uma cena na unity.
 
+Trabalho feito por : Kaua de Carlo Merida e Matheus Henrique galindo campos.
+
 <h3>Cena : Eliott e E.T. estão em fuga.</h3>
 
 <h3>Cena desenvolvida</h3>
 A cena começa com uma introdução ilustrativa,mostrando várias imagens em sequência para contextualizar o jogador,mesmo que ele não tenha visto ao filme. Em seguida, o cenário abre com o Eliott e E.T em uma bicicleta sendo preseguido pelos agentes do governo no meio da cidade,o jogador deve desviar dos obstáculos e escolher o caminho correto para não ser Capturado.
+Ao completar o percurso, o jogador chega a uma rua sem saída,bloqueada por viaturas e agentes do governo,nesse momento uma cutscene e ativada,mostrando a cana do filme em que a bicicleta voa na frente do sol,marcando o fim do jogo.
 
-
-
-Trabalho feito por : Kaua de Carlo Merida e Matheus Henrique galindo campos. 
 
 <h2>história do filme</h2> 
 
