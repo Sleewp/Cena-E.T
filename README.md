@@ -25,6 +25,8 @@ Para os personagens usamos modelos grátis da loja do Unity, para o jogador usam
 
 ![Captura de tela 2024-11-21 113016](https://github.com/user-attachments/assets/0f326dcc-d1f2-4be1-9a37-b5bdcc1bb788)
 
+![Captura de tela 2024-11-21 113912](https://github.com/user-attachments/assets/a5ff03f3-0349-4542-8de5-fb703bba30b0)
+
 <h2>links da asset story e referências</h2>
 
 https://assetstore.unity.com/packages/3d/vehicles/land/police-car-helicopter-52496
