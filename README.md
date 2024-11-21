@@ -8,13 +8,16 @@ Trabalho feito por : Kaua de Carlo Merida e Matheus Henrique galindo campos.
 
 <h2>história do filme</h2> 
 
-<h3>Filme : E.T O Extraterrestre</h3> 
+<h3>Filme : E.T O Extraterrestre</h3>
+
+![Captura de tela 2024-11-21 114050](https://github.com/user-attachments/assets/600caea4-3243-4b1f-814a-3deb3fd9d768)
 
 o filme nos apresenta Eliot um menino,que conhece um alienígena  que acabou sendo esquecido aqui na Terra por acidente e agora precisa voltar para casa.
 
 <h2>Elementos</h2>
 
 <h3>Personagem</h3>
+Para os personagens usamos modelos grátis da loja do Unity, para o jogador usamos o modelo do “E.T (Ofek,Sagiv,Abed)”, "Bike Ardis Verona 28" e "Relaxed Man Character". E para os Agentes usamos o modelo “Police Car & Helicopter”. Também usamos Physic Material e RigidBody em ambos os personagens, para que eles possuíssem colisão e tivessem gravidade. E por fim usamos Script C# para poder programar a movimentação do jogador.
 
 ![Captura de tela 2024-11-21 111308](https://github.com/user-attachments/assets/2774813b-64bd-4cc1-b5b3-f3c7a0109e80)
 
@@ -24,4 +27,4 @@ o filme nos apresenta Eliot um menino,que conhece um alienígena  que acabou sen
 
 <h2>links da asset story e referências</h2>
 
-
+https://assetstore.unity.com/packages/3d/vehicles/land/police-car-helicopter-52496
