@@ -1,8 +1,8 @@
 <h1>Cena-E.T</h1>
 
- <h2>proposta da atividade</h2> 
+ <h2>Proposta da atividade:</h2> 
 
- pegar uma cena específica de um filme e transformar em uma cena na unity.
+Pegar uma cena específica de um filme e transformar em uma cena na Unity.
 
 Trabalho feito por : Kaua de Carlo Merida e Matheus Henrique galindo campos.
 
@@ -13,7 +13,7 @@ A cena começa com uma introdução ilustrativa,mostrando várias imagens em seq
 Ao completar o percurso, o jogador chega a uma rua sem saída, bloqueada por viaturas e agentes do governo, nesse momento uma cutscene é ativada, mostrando a cana do filme em que a bicicleta voa na frente do sol, marcando o fim do jogo.
 
 
-<h2>história do filme</h2> 
+<h2>História do filme</h2> 
 
 <h3>Filme : E.T O Extraterrestre</h3>
 
