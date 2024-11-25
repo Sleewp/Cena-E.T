@@ -30,7 +30,7 @@ A história de E.T. fala sobre amizade e aceitação. Eliott,que é apenas uma c
 <h3>Obstáculos</h3>
 
 <h3>Personagem</h3>
-Para os personagens usamos modelos grátis da loja do Unity, para o jogador usamos o modelo do “E.T (Ofek,Sagiv,Abed)”, "Bike Ardis Verona 28" e "Relaxed Man Character". Para os Agentes usamos o modelo “Police Car & Helicopter”. Por fim usamos Script C# para poder programar a movimentação do jogador, o trajeto do agent que persegue o player e as colisões.
+Para os personagens usamos modelos grátis da loja do Unity e o sketchfab, para o jogador usamos o modelo do “E.T (Ofek,Sagiv,Abed)”, "Bike Ardis Verona 28" e "Relaxed Man Character". Para os Agentes usamos o modelo “Police Car & Helicopter”. Por fim usamos Script C# para poder programar a movimentação do jogador, o trajeto do agent que persegue o player e as colisões.
 
 ![Captura de tela 2024-11-21 111308](https://github.com/user-attachments/assets/2774813b-64bd-4cc1-b5b3-f3c7a0109e80)
 
