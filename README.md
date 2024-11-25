@@ -26,11 +26,12 @@ A história de E.T. fala sobre amizade e aceitação. Eliott,que é apenas uma c
 <h2>Elementos</h2>
 
 <h3>Cenário</h3> 
-Para fazer o cenário usamos o modelo  grátis do Sketchfab “ccity-building-set-1 ”,para as  texturas não foi preciso criar,  ultilizamos as texturas  prontas dos assets baixados.
+Para fazer o cenário usamos o modelos  grátis da loja do unity e o Sketchfab para as construções da cidade usamos o modelo “ ”,já para as árvores “Big Poplar Tree FREE” e “Big Oak Tree FREE”,para as  texturas não foi preciso criar,  ultilizamos as texturas  prontas dos assets baixados.
 
 ![IMG-20241125-WA0006.jpg](https://github.com/user-attachments/assets/ccedb43c-f842-4ecc-9db9-6265346c0733)
 
 <h3>Obstáculos</h3>
+
 
 <h3>Personagem</h3>
 Para os personagens usamos modelos grátis da loja do Unity e o Sketchfab, para o jogador usamos o modelo do “E.T (Ofek,Sagiv,Abed)”, "Bike Ardis Verona 28" e "Relaxed Man Character". Para os Agentes usamos o modelo “Police Car & Helicopter”. Por fim usamos Script C# para poder programar a movimentação do jogador, o trajeto do agent que persegue o player e as colisões.
