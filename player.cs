@@ -8,7 +8,7 @@ public class player : MonoBehaviour
     public float speed;
     public float lateralSpeed;
     public float maxSpeed;
-    public float Acceleration;
+    public float acceleration;
     public Vector3 position;
     private CharacterController characterController;
 
@@ -21,12 +21,13 @@ public class player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        increaseSpeed();
         movePlayer();
     }
 
     private void movePlayer()
     {
-        // movimento para frente contínuo
+        // movimento para frente contÃ­nuo
         Vector3 forwardMovement = -Vector3.forward * speed * Time.deltaTime;
 
         float horizontalInput = Input.GetAxis("Horizontal");
@@ -38,5 +39,17 @@ public class player : MonoBehaviour
     private void resetPosition()
     {
 
+    }
+
+    private void increaseSpeed()
+    {
+        if (speed < maxSpeed)
+        {
+            speed += acceleration * Time.deltaTime;
+        }
+        else
+        {
+            speed = maxSpeed;
+        }
     }
 }
