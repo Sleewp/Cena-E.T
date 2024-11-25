@@ -4,7 +4,7 @@
 
 Pegar uma cena específica de um filme e transformar em uma cena na Unity.
 
-Trabalho feito por : Kaua de Carlo Merida e Matheus Henrique galindo campos.
+Trabalho feito por : Kauan de Carlo Merida e Matheus Henrique Galindo Campos.
 
 <h3>Cena : Eliott e E.T. estão em fuga.</h3>
 
