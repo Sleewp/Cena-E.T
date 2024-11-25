@@ -44,6 +44,12 @@ Para os personagens usamos modelos grátis da loja do Unity, para o jogador usam
 
 <h2>links da asset story e referências</h2>
 
+https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/relaxed-man-character-32665
+
 https://assetstore.unity.com/packages/3d/vehicles/land/police-car-helicopter-52496
 
 https://sketchfab.com/3d-models/ccity-building-set-1-a2d5c7bfcc2148fb8994864c43dfcc97
+
+https://sketchfab.com/3d-models/bike-ardis-verona-28-99d6dce2e49e4ba185ac108ab044524d
+
+https://sketchfab.com/3d-models/et-ofeksagivabed-45794dfae500422c928d0470dbaa5918
