@@ -47,19 +47,23 @@ Para os personagens usamos modelos grátis da loja do Unity e o Sketchfab, para 
 <h2>Paleta de cores</h2>
 As cores principais do jogador,dos obstáculos e da cidade são tons de cinza,marrom,verde,azul escuro e laranja.Sendo o cinza para representar o realismo que está presente no filme,o marrom que representa a conforto e segurança que o E.T e Eliott sente ao estar juntos, o verde representa a natureza, crescimento e esperança,o azul escuro o sunpense,tensão e o mistério que tem no filme; e o laranja simbolizando o perigo,tensão e urgência dando na cena mais emoção e adrenalina. 
 
-Cor:Azul escuro 
+
+Cor: Azul escuro <br>
 Codigo hex:#353c81
 
-Cor:Cinza
+<img width="296" alt="image" src="https://github.com/user-attachments/assets/2efe0aeb-b174-465c-bfc4-c6a5c484a710">
+
+Cor: Cinza
 Codigo hex:#72757a
 
-Cor:laranja
+
+Cor: Laranja
 Cidigo hex:
 
-Cor:marrom
+Cor: Marrom
 Codigo hex:#887663
 
-Cor:verde
+Cor: Verde
 Codigo hex:
 
 <h2>links da asset story e referências</h2>
