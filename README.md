@@ -15,7 +15,7 @@ Ao completar o percurso, o jogador chega a uma rua sem saída, bloqueada por via
 
 <h2>História do filme</h2> 
 
-<h3>Filme : E.T O Extraterrestre</h3>
+<h3>E.T O Extraterrestre</h3>
 
 ![Captura de tela 2024-11-21 114050](https://github.com/user-attachments/assets/600caea4-3243-4b1f-814a-3deb3fd9d768)
 
