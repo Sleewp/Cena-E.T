@@ -47,6 +47,14 @@ Para os personagens usamos modelos grátis da loja do Unity e o Sketchfab, para 
 
 <h2>links da asset story e referências</h2>
 
+https://assetstore.unity.com/packages/3d/vegetation/plants/yughues-free-bushes-13168
+
+https://assetstore.unity.com/packages/3d/vegetation/big-poplar-tree-free-301037
+
+https://assetstore.unity.com/packages/3d/vegetation/big-oak-tree-free-279431
+
+https://assetstore.unity.com/packages/3d/environments/barrier-traffic-cone-pack-82549
+
 https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/relaxed-man-character-32665
 
 https://assetstore.unity.com/packages/3d/vehicles/land/police-car-helicopter-52496
