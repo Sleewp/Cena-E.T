@@ -9,7 +9,7 @@ Trabalho feito por : Kauan de Carlo Merida e Matheus Henrique Galindo Campos.
 <h3>Cena : Eliott e E.T. estão em fuga.</h3>
 
 <h3>Cena desenvolvida</h3>
-A cena começa com uma introdução ilustrativa, mostrando várias imagens em sequência para contextualizar o jogador, mesmo que ele não tenha visto o filme. Em seguida, o cenário abre com Eliott e E.T. em uma bicicleta sendo perseguidos pelos agentes do governo no meio da cidade. O jogador deve desviar dos obstáculos e escolher o caminho correto para não ser capturado.Ao completar o percurso, o jogador chega a uma rua sem saída, bloqueada por viaturas e agentes do governo. Nesse momento uma cutscene é ativada, mostrando a cena do filme em que a bicicleta voa na frente do sol, marcando o fim do jogo.
+A cena começa com uma introdução ilustrativa, mostrando várias imagens em sequência para contextualizar o jogador, mesmo que ele não tenha visto o filme. Em seguida, o cenário abre com Eliott e E.T. em uma bicicleta sendo perseguidos pelos agentes do governo no meio da cidade. O jogador deve desviar dos obstáculos e escolher o caminho correto para não ser capturado. Ao completar o percurso, o jogador chega a uma rua sem saída, bloqueada por viaturas e agentes do governo. Nesse momento uma cutscene é ativada, mostrando a cena do filme em que a bicicleta voa na frente do sol, marcando o fim do jogo.
  
 
 
@@ -19,9 +19,9 @@ A cena começa com uma introdução ilustrativa, mostrando várias imagens em se
 
 ![Captura de tela 2024-11-21 114050](https://github.com/user-attachments/assets/600caea4-3243-4b1f-814a-3deb3fd9d768)
 
-A história gira em torno de um alienígena chamado "E.T.", que é acidentalmente deixado na Terra por sua nave-mãe. Ele acaba sendo descoberto por um garoto solitário,Eliott,e nasce entre eles uma amizade profunda e emocionante,com Eliott tentando ajudar E.T. a retornar para o seu planeta natal enquanto o esconde das autoridades e cientistas que desejam estudá-lo.
+A história gira em torno de um alienígena chamado "E.T.", que é acidentalmente deixado na Terra por sua nave-mãe. Ele acaba sendo descoberto por um garoto solitário, Eliott, e nasce entre eles uma amizade profunda e emocionante, com Eliott tentando ajudar E.T. a retornar para o seu planeta natal enquanto o esconde das autoridades e cientistas que desejam estudá-lo.
 
-A história de E.T. fala sobre amizade e aceitação. Eliott,que é apenas uma criança e não vê E.T. como uma ameaça ou algo estranho; ele só vê alguém que precisa de ajuda. Isso reflete a forma como as crianças,muitas vezes,são mais alertas e aceitam melhor o que é diferente,ao contrário dos adultos que tendem a ter medo ou querer controlar o que não conhecem. O filme nos lembra da importância de aceitar e entender quem é diferente de nós. Além disso,E.T. e Eliott uma conexão forte,mostrando que a amizade verdadeira não precisa de palavras e pode surgir entre seres copletamente diferentes.
+A história de E.T. fala sobre amizade e aceitação. Eliott, que é apenas uma criança e não vê E.T. como uma ameaça ou algo estranho; ele só vê alguém que precisa de ajuda. Isso reflete a forma como as crianças, muitas vezes, são mais alertas e aceitam melhor o que é diferente, ao contrário dos adultos que tendem a ter medo ou querer controlar o que não conhecem. O filme nos lembra da importância de aceitar e entender quem é diferente de nós. Além disso, E.T. e Eliott têm uma conexão forte, mostrando que a amizade verdadeira não precisa de palavras e pode surgir entre seres completamente diferentes.
 
 <h2>Elementos</h2>
 
