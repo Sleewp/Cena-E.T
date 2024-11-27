@@ -30,8 +30,16 @@ Para fazer o cenário usamos o modelos  grátis da loja do unity e o Sketchfab p
 
 ![IMG-20241125-WA0006.jpg](https://github.com/user-attachments/assets/ccedb43c-f842-4ecc-9db9-6265346c0733)
 
+![Captura de tela 2024-11-27 103057](https://github.com/user-attachments/assets/2c7a20fe-cdd7-4d71-93a4-7b38f214dd76)
+
+![Captura de tela 2024-11-27 103349](https://github.com/user-attachments/assets/86736a04-1105-4559-87a4-6b7bec8f633f)
+
 <h3>Obstáculos</h3>
 Para fazer os obstáculos usamos modelos grátis da loja do Unity. Para os arbustos usamos o modelo “Yughues Free Bushes” e os cones de trânsito, placas de sinalização e barreiras foi usado o modelo “Barrier & Traffic Cone Pack”. utilizamos os arbustos para ter mais referência com o filme, onde a natureza é bem notável, para os materiais de construção foi usado para representar os perigos que estão nas ruas quando estão em construção que diversas das vezes resultam em acidentes e mortes todos os dias por conta de sinalização,falta de atenção e dirigir em alta velocidade.
+
+![image](https://github.com/user-attachments/assets/5b7f1594-0976-4180-bd54-29123562dd13)
+
+![Captura de tela 2024-11-27 103830](https://github.com/user-attachments/assets/b7e60857-10d3-443d-89ed-ea963e2b036e)
 
 
 <h3>Personagem</h3>
@@ -71,8 +79,10 @@ Cidigo hex:#ff5518
 Cor: Marrom<br>
 Codigo hex:#875e41
 
+![Captura de tela 2024-11-27 101912](https://github.com/user-attachments/assets/668b3248-7325-4814-ab27-7645cb649029)
+
 Cor: Verde<br>
-Codigo hex:
+Codigo hex:#85965b
 
 <h2>links da asset story e referências</h2>
 
