@@ -35,7 +35,7 @@ Para fazer o cenário usamos o modelos  grátis da loja do unity e o Sketchfab p
 ![Captura de tela 2024-11-27 103349](https://github.com/user-attachments/assets/86736a04-1105-4559-87a4-6b7bec8f633f)
 
 <h3>Obstáculos</h3>
-Para fazer os obstáculos usamos modelos grátis da loja do Unity. Para os arbustos usamos o modelo “Yughues Free Bushes” e os cones de trânsito, placas de sinalização e barreiras foi usado o modelo “Barrier & Traffic Cone Pack”. utilizamos os arbustos para ter mais referência com o filme, onde a natureza é bem notável, para os materiais de construção foi usado para representar os perigos que estão nas ruas quando estão em construção que diversas das vezes resultam em acidentes e mortes todos os dias por conta de sinalização,falta de atenção e dirigir em alta velocidade.
+Para fazer os obstáculos usamos modelos grátis da loja do Unity. Para os arbustos usamos o modelo “Yughues Free Bushes” e os cones de trânsito, placas de sinalização e barreiras foi usado o modelo “Barrier & Traffic Cone Pack”. Utilizamos os arbustos para ter mais referência com o filme, onde a natureza é bem notável, para os materiais de construção foi usado para representar os perigos que estão nas ruas quando estão em construção que diversas das vezes resultam em acidentes e mortes todos os dias por conta de sinalização, falta de atenção e dirigir em alta velocidade.
 
 ![image](https://github.com/user-attachments/assets/5b7f1594-0976-4180-bd54-29123562dd13)
 
@@ -43,7 +43,7 @@ Para fazer os obstáculos usamos modelos grátis da loja do Unity. Para os arbus
 
 
 <h3>Personagem</h3>
-Para os personagens usamos modelos grátis da loja do Unity e o Sketchfab, para o jogador usamos o modelo do “E.T (Ofek,Sagiv,Abed)”, "Bike Ardis Verona 28" e "Relaxed Man Character". Para os Agentes usamos o modelo “Police Car & Helicopter”. Por fim usamos Script C# para poder programar a movimentação do jogador, o trajeto do agent que persegue o player e as colisões.
+Para os personagens usamos modelos grátis da loja do Unity e o Sketchfab. Para o jogador usamos o modelo do “E.T (Ofek,Sagiv,Abed)”, "Bike Ardis Verona 28" e "Relaxed Man Character". Para os agentes, usamos o modelo “Police Car & Helicopter”. Por fim, usamos Script C# para poder programar a movimentação do jogador, o trajeto do agente que persegue o jogador e as colisões.
 
 ![Captura de tela 2024-11-21 111308](https://github.com/user-attachments/assets/2774813b-64bd-4cc1-b5b3-f3c7a0109e80)
 
