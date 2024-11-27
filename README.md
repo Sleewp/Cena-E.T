@@ -31,6 +31,7 @@ Para fazer o cenário usamos o modelos  grátis da loja do unity e o Sketchfab p
 ![IMG-20241125-WA0006.jpg](https://github.com/user-attachments/assets/ccedb43c-f842-4ecc-9db9-6265346c0733)
 
 <h3>Obstáculos</h3>
+Para fazer os obstáculos usamos modelos grátis da loja do Unity. Para os arbustos usamos o modelo “Yughues Free Bushes” e os cones de trânsito, placas de sinalização e barreiras foi usado o modelo “Barrier & Traffic Cone Pack”. utilizamos os arbustos para ter mais referência com o filme, onde a natureza é bem notável, para os materiais de construção foi usado para representar os perigos que estão nas ruas quando estão em construção que diversas das vezes resultam em acidentes e mortes todos os dias por conta de sinalização,falta de atenção e dirigir em alta velocidade.
 
 
 <h3>Personagem</h3>
@@ -43,6 +44,8 @@ Para os personagens usamos modelos grátis da loja do Unity e o Sketchfab, para 
 ![Captura de tela 2024-11-21 113016](https://github.com/user-attachments/assets/0f326dcc-d1f2-4be1-9a37-b5bdcc1bb788)
 
 ![Captura de tela 2024-11-21 113912](https://github.com/user-attachments/assets/a5ff03f3-0349-4542-8de5-fb703bba30b0)
+
+<h2>script</h2>
 
 <h2>Paleta de cores</h2>
 As cores principais do jogador,dos obstáculos e da cidade são tons de cinza,marrom,verde,azul escuro e laranja.Sendo o cinza para representar o realismo que está presente no filme,o marrom que representa a conforto e segurança que o E.T e Eliott sente ao estar juntos, o verde representa a natureza, crescimento e esperança,o azul escuro o sunpense,tensão e o mistério que tem no filme; e o laranja simbolizando o perigo,tensão e urgência dando na cena mais emoção e adrenalina. <br>
@@ -58,9 +61,10 @@ Codigo hex:#353c81
 Cor: Cinza<br>
 Codigo hex:#72757a
 
+![image](https://github.com/user-attachments/assets/f091d35d-bc5b-4500-bf07-6fee1d08ae06)
 
 Cor: Laranja<br>
-Cidigo hex:
+Cidigo hex:#ff5518
 
 <img width="292" alt="image" src="https://github.com/user-attachments/assets/6ca182d1-f907-4675-88cd-80878cce826a">
 
