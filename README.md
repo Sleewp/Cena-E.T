@@ -1,12 +1,11 @@
-<h1>Cena-E.T O Extraterrestre</h1>
+<h1>E.T O Extraterrestre</h1>
+<h3>Cena: Eliott e E.T. estão em fuga.</h3>
+Trabalho feito por : Kauan de Carlo Merida e Matheus Henrique Galindo Campos.
 
  <h2>Proposta da atividade:</h2> 
 
 Pegar uma cena específica de um filme e transformar em uma cena na Unity.
 
-Trabalho feito por : Kauan de Carlo Merida e Matheus Henrique Galindo Campos.
-
-<h3>Cena : Eliott e E.T. estão em fuga.</h3>
 
 <h3>Cena desenvolvida</h3>
 A cena começa com uma introdução ilustrativa, mostrando várias imagens em sequência para contextualizar o jogador, mesmo que ele não tenha visto o filme. Em seguida, o cenário abre com Eliott e E.T. em uma bicicleta sendo perseguidos pelos agentes do governo no meio da cidade. O jogador deve desviar dos obstáculos e escolher o caminho correto para não ser capturado. Ao completar o percurso, o jogador chega a uma rua sem saída, bloqueada por viaturas e agentes do governo. Nesse momento uma cutscene é ativada, mostrando a cena do filme em que a bicicleta voa na frente do sol, marcando o fim do jogo.
