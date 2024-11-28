@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class agent : MonoBehaviour
 {
-    public Transform[] waypoints; // Lista de waypoints
-    public float speed = 5f;      // Velocidade da viatura
+    public Transform[] waypoints;
+    public float speed = 5f;
     public float reachDistance = 0.5f; // Distância para considerar o waypoint alcançado
 
     private int currentWaypointIndex = 0; // Índice do waypoint atual
@@ -18,12 +18,12 @@ public class agent : MonoBehaviour
     }
     void Update()
     {
-        FollowPath(); // Chama o método para seguir o caminho
+        FollowPath();
     }
 
     private void FollowPath()
     {
-        // Verifica se há waypoints definidos
+        // Verifica se há waypoints definidos, caso contrário não executa o método
         if (waypoints.Length == 0) return;
 
         // Pega o waypoint atual
@@ -56,5 +56,6 @@ public class agent : MonoBehaviour
     {
         transform.position = defaultPosition;
         transform.rotation = defaultRotation;
+        currentWaypointIndex = 0;
     }
 }
