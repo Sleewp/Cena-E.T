@@ -118,4 +118,5 @@ https://drive.google.com/file/d/1gKzT7Aeqq7lXf3X48N20NpfiXGz4nTm1/view?usp=drive
 <br>
 <h1>Relatório do trabalho</h1>
 Kauan: Responsável pelo jogo em si, mecânicas e parte lógica. (Fez os scripts, cenário no Unity, as mecânicas do jogo e os detalhes como decoração, ect).
+<br>
 Matheus: Responsável pela documentação e design. (Fez a documentação do GitHub, decidiu os assets/referências para o jogo e participou do processo criativo).
