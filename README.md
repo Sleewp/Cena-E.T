@@ -1,4 +1,4 @@
-<h1>Cena-E.T</h1>
+<h1>Cena-E.T O Extraterrestre</h1>
 
  <h2>Proposta da atividade:</h2> 
 
@@ -15,7 +15,6 @@ A cena começa com uma introdução ilustrativa, mostrando várias imagens em se
 
 <h2>Sobre o filme</h2> 
 
-<h3>E.T O Extraterrestre</h3>
 
 ![Captura de tela 2024-11-21 114050](https://github.com/user-attachments/assets/600caea4-3243-4b1f-814a-3deb3fd9d768)
 
