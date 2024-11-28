@@ -4,41 +4,57 @@ public class agent : MonoBehaviour
 {
     public Transform[] waypoints; // Lista de waypoints
     public float speed = 5f;      // Velocidade da viatura
-    public float reachDistance = 0.5f; // Dist‚ncia para considerar o waypoint alcanÁado
+    public float reachDistance = 0.5f; // Dist√¢ncia para considerar o waypoint alcan√ßado
 
-    private int currentWaypointIndex = 0; // Õndice do waypoint atual
+    private int currentWaypointIndex = 0; // √çndice do waypoint atual
 
+    private Quaternion defaultRotation;
+    private Vector3 defaultPosition;
+
+    void Start()
+    {
+        defaultRotation = transform.rotation;
+        defaultPosition = transform.position;
+    }
     void Update()
     {
-        FollowPath(); // Chama o mÈtodo para seguir o caminho
+        FollowPath(); // Chama o m√©todo para seguir o caminho
     }
 
     private void FollowPath()
     {
-        // Verifica se h· waypoints definidos
+        // Verifica se h√° waypoints definidos
         if (waypoints.Length == 0) return;
 
         // Pega o waypoint atual
         Transform targetWaypoint = waypoints[currentWaypointIndex];
 
-        // Move em direÁ„o ao waypoint atual
+        // Move em dire√ß√£o ao waypoint atual
         Vector3 direction = (targetWaypoint.position - transform.position).normalized;
         transform.position += direction * speed * Time.deltaTime;
 
         // Rotaciona a viatura para olhar para o waypoint
         transform.LookAt(targetWaypoint);
 
-        // Verifica se a viatura alcanÁou o waypoint
+        // Verifica se a viatura alcan√ßou o waypoint
         if (Vector3.Distance(transform.position, targetWaypoint.position) <= reachDistance)
         {
-            currentWaypointIndex++; // Passa para o prÛximo waypoint
-
-            // Volta ao inÌcio ou para no ˙ltimo waypoint
-            if (currentWaypointIndex >= waypoints.Length)
-            {
-                currentWaypointIndex = 0; // Reinicia o caminho (opcional)
-                // Se n„o quiser reiniciar o caminho, comente a linha acima.
-            }
+            currentWaypointIndex++; // Passa para o pr√≥ximo waypoint
         }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            // Reseta a posi√ß√£o do agent para a posi√ß√£o inicial
+            resetPosition();
+        }
+    }
+
+    private void resetPosition()
+    {
+        transform.position = defaultPosition;
+        transform.rotation = defaultRotation;
     }
 }
