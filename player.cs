@@ -11,12 +11,11 @@ public class player : MonoBehaviour
     public float acceleration;
     private Quaternion defaultRotation;
     private Vector3 defaultPosition;
-    private CharacterController characterController;
+    public float speedReduction;
 
     // Start is called before the first frame update
     void Start()
     {
-        characterController = GetComponent<CharacterController>();
         defaultRotation = transform.rotation;
         defaultPosition = transform.position;
     }
@@ -42,10 +41,8 @@ public class player : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        // Verifica se o objeto colidido tem a tag "Agent"
         if (collision.gameObject.CompareTag("Agent"))
         {
-            // Reseta a posição do jogador para a posição inicial
             resetPosition();
         }
     }
@@ -67,5 +64,18 @@ public class player : MonoBehaviour
         {
             speed = maxSpeed;
         }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Obstacle"))
+        {
+            Debug.Log("bateu");
+            reduceSpeed();
+        }
+    }
+    private void reduceSpeed()
+    {
+        speed *= speedReduction;
     }
 }
