@@ -9,13 +9,16 @@ public class player : MonoBehaviour
     public float lateralSpeed;
     public float maxSpeed;
     public float acceleration;
-    public Vector3 position;
+    private Quaternion defaultRotation;
+    private Vector3 defaultPosition;
     private CharacterController characterController;
 
     // Start is called before the first frame update
     void Start()
     {
         characterController = GetComponent<CharacterController>();
+        defaultRotation = transform.rotation;
+        defaultPosition = transform.position;
     }
 
     // Update is called once per frame
@@ -31,14 +34,27 @@ public class player : MonoBehaviour
         Vector3 forwardMovement = -Vector3.forward * speed * Time.deltaTime;
 
         float horizontalInput = Input.GetAxis("Horizontal");
-        Vector3 lateralMovement = -Vector3.right * horizontalInput * lateralSpeed * Time.deltaTime;
+        float adjustedLateralSpeed = lateralSpeed * (1 + speed / maxSpeed);
+        Vector3 lateralMovement = -Vector3.right * horizontalInput * adjustedLateralSpeed * Time.deltaTime;
 
         transform.Translate(forwardMovement + lateralMovement);
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        // Verifica se o objeto colidido tem a tag "Agent"
+        if (collision.gameObject.CompareTag("Agent"))
+        {
+            // Reseta a posição do jogador para a posição inicial
+            resetPosition();
+        }
+    }
+
     private void resetPosition()
     {
-
+        transform.position = defaultPosition; // A posição inicial do jogador
+        transform.rotation = defaultRotation;         // A rotação original
+        speed = 25;
     }
 
     private void increaseSpeed()
