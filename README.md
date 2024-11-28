@@ -13,7 +13,7 @@ A cena começa com uma introdução ilustrativa, mostrando várias imagens em se
  
 
 
-<h2>História do filme</h2> 
+<h2>Sobre o filme</h2> 
 
 <h3>E.T O Extraterrestre</h3>
 
@@ -22,6 +22,17 @@ A cena começa com uma introdução ilustrativa, mostrando várias imagens em se
 A história gira em torno de um alienígena chamado "E.T.", que é acidentalmente deixado na Terra por sua nave-mãe. Ele acaba sendo descoberto por um garoto solitário, Eliott, e nasce entre eles uma amizade profunda e emocionante, com Eliott tentando ajudar E.T. a retornar para o seu planeta natal enquanto o esconde das autoridades e cientistas que desejam estudá-lo.
 
 A história de E.T. fala sobre amizade e aceitação. Eliott, que é apenas uma criança e não vê E.T. como uma ameaça ou algo estranho; ele só vê alguém que precisa de ajuda. Isso reflete a forma como as crianças, muitas vezes, são mais alertas e aceitam melhor o que é diferente, ao contrário dos adultos que tendem a ter medo ou querer controlar o que não conhecem. O filme nos lembra da importância de aceitar e entender quem é diferente de nós. Além disso, E.T. e Eliott têm uma conexão forte, mostrando que a amizade verdadeira não precisa de palavras e pode surgir entre seres completamente diferentes.
+
+<h3>Análise dos personagens principais</h3>
+<strong>Elliott</strong>: Um menino solitário e sonhador que se torna amigo de E.T. Sua jornada representa a inocência da infância e a busca por conexão emocional.
+
+<strong>E.T.</strong>: um extraterrestre gentil e curioso que se perdeu na Terra. Ele simboliza a esperança e a amizade.
+
+<strong>Gertie</strong>: A irmã mais nova de Elliott, que é espontânea e cheia de vida. Sua interação com E.T. traz um toque de leveza e humor à história.
+
+<strong>Michael</strong>: O irmão mais velho de Elliott, que acaba se envolvendo na proteção do E.T. Sua evolução mostra o crescimento e a responsabilidade.
+
+<strong>A Mãe de Elliott</strong>: Uma figura que representa o cuidado e a preocupação familiar, lidando com os desafios de criar os filhos sozinha.
 
 <h2>Elementos</h2>
 
