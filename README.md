@@ -53,7 +53,9 @@ Para os personagens usamos modelos grátis da loja do Unity e o Sketchfab. Para 
 
 ![Captura de tela 2024-11-21 113912](https://github.com/user-attachments/assets/a5ff03f3-0349-4542-8de5-fb703bba30b0)
 
-<h2>script</h2>
+<h2>Scripts</h2>
+´´´csharp
+´´´
 
 <h2>Paleta de cores</h2>
 As cores principais do jogador, dos obstáculos e da cidade são tons de cinza, marrom, verde, azul escuro e laranja. Sendo o cinza para representar o realismo e a seriedade que está presente na cena da fuga, o marrom que representa o conforto e segurança que o E.T. e Eliott sentem ao estar juntos, o verde representa a natureza, crescimento e esperança, o azul escuro o suspense, tensão e o mistério que tem no filme; e o laranja simbolizando o perigo, tensão e urgência dando à cena mais emoção e adrenalina. <br>
