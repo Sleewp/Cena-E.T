@@ -46,17 +46,14 @@ Para fazer os obstáculos usamos modelos grátis da loja do Unity. Para os arbus
 Para os personagens usamos modelos grátis da loja do Unity e o Sketchfab. Para o jogador usamos o modelo do “E.T (Ofek,Sagiv,Abed)”, "Bike Ardis Verona 28" e "Relaxed Man Character". Para os agentes, usamos o modelo “Police Car & Helicopter”. Por fim, usamos Script C# para poder programar a movimentação do jogador, o trajeto do agente que persegue o jogador e as colisões.
 
 ![Captura de tela 2024-11-21 111308](https://github.com/user-attachments/assets/2774813b-64bd-4cc1-b5b3-f3c7a0109e80)
-
+<br>
 ![Captura de tela 2024-11-21 111850](https://github.com/user-attachments/assets/3af1266b-34cc-4146-8e1a-e4820b4f7473)
-
+<br>
 ![Captura de tela 2024-11-21 113016](https://github.com/user-attachments/assets/0f326dcc-d1f2-4be1-9a37-b5bdcc1bb788)
-
+<br>
 ![Captura de tela 2024-11-21 113912](https://github.com/user-attachments/assets/a5ff03f3-0349-4542-8de5-fb703bba30b0)
-
+<br>
 <h2>Scripts</h2>
-```csharp
-avlulve
-```
 
 <h2>Paleta de cores</h2>
 As cores principais do jogador, dos obstáculos e da cidade são tons de cinza, marrom, verde, azul escuro e laranja. Sendo o cinza para representar o realismo e a seriedade que está presente na cena da fuga, o marrom que representa o conforto e segurança que o E.T. e Eliott sentem ao estar juntos, o verde representa a natureza, crescimento e esperança, o azul escuro o suspense, tensão e o mistério que tem no filme; e o laranja simbolizando o perigo, tensão e urgência dando à cena mais emoção e adrenalina. <br>
