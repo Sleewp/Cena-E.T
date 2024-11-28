@@ -34,7 +34,7 @@ A história de E.T. fala sobre amizade e aceitação. Eliott, que é apenas uma 
 
 <strong>A Mãe de Elliott</strong>: Uma figura que representa o cuidado e a preocupação familiar, lidando com os desafios de criar os filhos sozinha.
 
-<h2>Elementos</h2>
+<h2>Descrição técnica</h2>
 
 <h3>Cenário</h3> 
 Para fazer o cenário usamos os modelos grátis da loja do Unity e o Sketchfab. Para as construções da cidade usamos o modelo “CCity Building Set 1”, já para as árvores “Big Poplar Tree FREE” e “Big Oak Tree FREE”, para as texturas não foi preciso criar, utilizamos as texturas prontas dos assets baixados.
