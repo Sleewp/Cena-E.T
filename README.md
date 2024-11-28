@@ -84,7 +84,7 @@ Codigo hex:#875e41
 Cor: Verde<br>
 Codigo hex:#85965b
 
-<h2>links da asset story e referências</h2>
+<h2>links da asset store e referências</h2>
 
 https://assetstore.unity.com/packages/3d/vegetation/plants/yughues-free-bushes-13168
 
