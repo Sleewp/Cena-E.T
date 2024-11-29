@@ -10,14 +10,16 @@ Pegar uma cena específica de um filme e transformar em uma cena na Unity.
 <h3>Cena desenvolvida</h3>
 A cena começa com uma introdução ilustrativa, mostrando várias imagens em sequência para contextualizar o jogador, mesmo que ele não tenha visto o filme. Em seguida, o cenário abre com Eliott e E.T. em uma bicicleta sendo perseguidos pelos agentes do governo no meio da cidade. O jogador deve desviar dos obstáculos e escolher o caminho correto para não ser capturado. Ao completar o percurso, o jogador chega a uma rua sem saída, bloqueada por viaturas e agentes do governo. Nesse momento uma cutscene é ativada, mostrando a cena do filme em que a bicicleta voa na frente do sol, marcando o fim do jogo.
 <br>
+
 ![IMG-20241129-WA0027.jpg](https://github.com/user-attachments/assets/ebd7277e-1a8b-43a7-a566-78061f70d3af)
- <br>
+ 
 
 
 <h2>Sobre o filme</h2> 
 <br>
+
 ![Captura de tela 2024-11-21 114050](https://github.com/user-attachments/assets/600caea4-3243-4b1f-814a-3deb3fd9d768)
-<br>
+
 A história gira em torno de um alienígena chamado "E.T.", que é acidentalmente deixado na Terra por sua nave-mãe. Ele acaba sendo descoberto por um garoto solitário, Eliott, e nasce entre eles uma amizade profunda e emocionante, com Eliott tentando ajudar E.T. a retornar para o seu planeta natal enquanto o esconde das autoridades e cientistas que desejam estudá-lo.
 
 A história de E.T. fala sobre amizade e aceitação. Eliott, que é apenas uma criança e não vê E.T. como uma ameaça ou algo estranho; ele só vê alguém que precisa de ajuda. Isso reflete a forma como as crianças, muitas vezes, são mais alertas e aceitam melhor o que é diferente, ao contrário dos adultos que tendem a ter medo ou querer controlar o que não conhecem. O filme nos lembra da importância de aceitar e entender quem é diferente de nós. Além disso, E.T. e Eliott têm uma conexão forte, mostrando que a amizade verdadeira não precisa de palavras e pode surgir entre seres completamente diferentes.
@@ -38,29 +40,38 @@ A história de E.T. fala sobre amizade e aceitação. Eliott, que é apenas uma 
 <h3>Cenário</h3> 
 Para fazer o cenário usamos os modelos grátis da loja do Unity e o Sketchfab. Para as construções da cidade usamos o modelo “CCity Building Set 1”, já para as árvores “Big Poplar Tree FREE” e “Big Oak Tree FREE”, para as texturas não foi preciso criar, utilizamos as texturas prontas dos assets baixados.
 <br>
+
 ![IMG-20241125-WA0006.jpg](https://github.com/user-attachments/assets/ccedb43c-f842-4ecc-9db9-6265346c0733)
 <br>
+
 ![Captura de tela 2024-11-27 103057](https://github.com/user-attachments/assets/2c7a20fe-cdd7-4d71-93a4-7b38f214dd76)
 <br>
+
 ![Captura de tela 2024-11-27 103349](https://github.com/user-attachments/assets/86736a04-1105-4559-87a4-6b7bec8f633f)
 <br>
 <h3>Obstáculos</h3>
 Para fazer os obstáculos usamos modelos grátis da loja do Unity. Para os arbustos usamos o modelo “Yughues Free Bushes” e os cones de trânsito, placas de sinalização e barreiras foi usado o modelo “Barrier & Traffic Cone Pack”. Utilizamos os arbustos para ter mais referência com o filme, onde a natureza é bem notável, para os materiais de construção foi usado para representar os perigos que estão nas ruas quando estão em construção que diversas das vezes resultam em acidentes e mortes todos os dias por conta de sinalização, falta de atenção e dirigir em alta velocidade.
 <br>
+
 ![image](https://github.com/user-attachments/assets/5b7f1594-0976-4180-bd54-29123562dd13)
 <br>
+
 ![Captura de tela 2024-11-27 103830](https://github.com/user-attachments/assets/b7e60857-10d3-443d-89ed-ea963e2b036e)
 <br>
 
 <h3>Personagem</h3>
 Para os personagens usamos modelos grátis da loja do Unity e o Sketchfab. Para o jogador usamos o modelo do “E.T (Ofek,Sagiv,Abed)”, "Bike Ardis Verona 28" e "Relaxed Man Character". Para os agentes, usamos o modelo “Police Car & Helicopter”. Por fim, usamos Script C# para poder programar a movimentação do jogador, o trajeto do agente que persegue o jogador e as colisões.
 <br>
+
 ![Captura de tela 2024-11-21 111308](https://github.com/user-attachments/assets/2774813b-64bd-4cc1-b5b3-f3c7a0109e80)
 <br>
+
 ![Captura de tela 2024-11-21 111850](https://github.com/user-attachments/assets/3af1266b-34cc-4146-8e1a-e4820b4f7473)
 <br>
+
 ![Captura de tela 2024-11-21 113016](https://github.com/user-attachments/assets/0f326dcc-d1f2-4be1-9a37-b5bdcc1bb788)
 <br>
+
 ![Captura de tela 2024-11-21 113912](https://github.com/user-attachments/assets/a5ff03f3-0349-4542-8de5-fb703bba30b0)
 <br>
 <h2>Scripts</h2>
