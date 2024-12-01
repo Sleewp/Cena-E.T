@@ -76,6 +76,13 @@ Para os personagens usamos modelos grátis da loja do Unity e o Sketchfab. Para 
 <br>
 <h2>Scripts</h2>
 
+<h3>Player</h3>:
+ 
+O código do player movimenta o jogador para frente continuamente e permite movimentos laterais baseados no comando do jogador. Também acelera gradualmente a velocidade até atingir um máximo, onde para limitar a velocidade máxima utilizamos um if e else. 
+Reseta a posição e velocidade do jogador ao colidir com "Agent", utilizamos o OnCollisionEnter para voltar às posições iniciais e por último, reduzimos a velocidade do jogador ao entrar em contato com um "Obstacle".
+
+<h3>Agent</h3>
+
 <h2>Paleta de cores</h2>
 As cores principais do jogador, dos obstáculos e da cidade são tons de cinza, marrom, verde, azul escuro e laranja. Sendo o cinza para representar o realismo e a seriedade que está presente na cena da fuga, o marrom que representa o conforto e segurança que o E.T. e Eliott sentem ao estar juntos, o verde representa a natureza, crescimento e esperança, o azul escuro o suspense, tensão e o mistério que tem no filme; e o laranja simbolizando o perigo, tensão e urgência dando à cena mais emoção e adrenalina.
  <br>
