@@ -235,6 +235,14 @@ Sobre:
  
 No códigodo agente temos as principais funções como : Movimento entre waypoints. Onde o agente se move continuamente em direção ao waypoint atual e rotaciona para "olhar" na direção do waypoint,para ele olhar para o waypoint utilizamos "lookAt". Também usamos detecção de colisão com o jogador, Se o agente colidir com um objeto marcado com a tag "Player", ele retorna à sua posição e rotação iniciais e reinicia o percurso desde o primeiro waypoint e por fim, o reset da posição inicial onde armazena a posição e rotação iniciais do agente para restaurar quando necessário.
 
+<h2> Diagrama de classes</h2>
+<h3>Antigo:</h3>
+<br>
+
+![IMG-20241201-WA0006.jpg](https://github.com/user-attachments/assets/4da36991-b0fa-4dec-9542-5e1038465c59)<br>
+
+<h3>Atualizado:</h3>
+
 <h2>Paleta de cores</h2>
 As cores principais do jogador, dos obstáculos e da cidade são tons de cinza, marrom, verde, azul escuro e laranja. Sendo o cinza para representar o realismo e a seriedade que está presente na cena da fuga, o marrom que representa o conforto e segurança que o E.T. e Eliott sentem ao estar juntos, o verde representa a natureza, crescimento e esperança, o azul escuro o suspense, tensão e o mistério que tem no filme; e o laranja simbolizando o perigo, tensão e urgência dando à cena mais emoção e adrenalina.
  <br>
