@@ -76,10 +76,90 @@ Para os personagens usamos modelos grátis da loja do Unity e o Sketchfab. Para 
 <br>
 <h2>Scripts</h2>
 
-<h3>Player</h3>:
+<h3>Player</h3>
 Código:
 
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UIElements;
 
+public class player : MonoBehaviour
+{
+    public float speed;
+    public float lateralSpeed;
+    public float maxSpeed;
+    public float acceleration;
+    private Quaternion defaultRotation;
+    private Vector3 defaultPosition;
+    public float speedReduction;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        defaultRotation = transform.rotation;
+        defaultPosition = transform.position;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        increaseSpeed();
+        movePlayer();
+    }
+
+    private void movePlayer()
+    {
+        // movimento para frente contínuo
+        Vector3 forwardMovement = -Vector3.forward * speed * Time.deltaTime;
+
+        float horizontalInput = Input.GetAxis("Horizontal");
+        float adjustedLateralSpeed = lateralSpeed * (1 + speed / maxSpeed);
+        Vector3 lateralMovement = -Vector3.right * horizontalInput * adjustedLateralSpeed * Time.deltaTime;
+
+        transform.Translate(forwardMovement + lateralMovement);
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Agent"))
+        {
+            resetPosition();
+        }
+    }
+
+    private void resetPosition()
+    {
+        transform.position = defaultPosition; // A posição inicial do jogador
+        transform.rotation = defaultRotation;         // A rotação original
+        speed = 25;
+    }
+
+    private void increaseSpeed()
+    {
+        if (speed < maxSpeed)
+        {
+            speed += acceleration * Time.deltaTime;
+        }
+        else
+        {
+            speed = maxSpeed;
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Obstacle"))
+        {
+            Debug.Log("bateu");
+            reduceSpeed();
+        }
+    }
+    private void reduceSpeed()
+    {
+        speed *= speedReduction;
+    }
+}
 
 Sobre:
 
@@ -153,7 +233,7 @@ public class agent : MonoBehaviour
 
 Sobre:
  
-No códigodo agente temos as principais funções como : Movimento entre waypoints. Onde o agente se move continuamente em direção ao waypoint atual e rotaciona para "olhar" na direção do waypoint,para ele olhar para o waypoint utilizamos "lookAt".Também usamos detecção de colisão com o jogador, Se o agente colidir com um objeto marcado com a tag `"Player"`, ele retorna à sua posição e rotação iniciais e reinicia o percurso desde o primeiro waypoint e por fim, o reset do estado onde armazena a posição e rotação iniciais do agente para restaurar quando necessário.
+No códigodo agente temos as principais funções como : Movimento entre waypoints. Onde o agente se move continuamente em direção ao waypoint atual e rotaciona para "olhar" na direção do waypoint,para ele olhar para o waypoint utilizamos "lookAt". Também usamos detecção de colisão com o jogador, Se o agente colidir com um objeto marcado com a tag "Player", ele retorna à sua posição e rotação iniciais e reinicia o percurso desde o primeiro waypoint e por fim, o reset da posição inicial onde armazena a posição e rotação iniciais do agente para restaurar quando necessário.
 
 <h2>Paleta de cores</h2>
 As cores principais do jogador, dos obstáculos e da cidade são tons de cinza, marrom, verde, azul escuro e laranja. Sendo o cinza para representar o realismo e a seriedade que está presente na cena da fuga, o marrom que representa o conforto e segurança que o E.T. e Eliott sentem ao estar juntos, o verde representa a natureza, crescimento e esperança, o azul escuro o suspense, tensão e o mistério que tem no filme; e o laranja simbolizando o perigo, tensão e urgência dando à cena mais emoção e adrenalina.
