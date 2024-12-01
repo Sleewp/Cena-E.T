@@ -77,11 +77,83 @@ Para os personagens usamos modelos grátis da loja do Unity e o Sketchfab. Para 
 <h2>Scripts</h2>
 
 <h3>Player</h3>:
- 
+Código:
+
+
+
+Sobre:
+
 O código do player movimenta o jogador para frente continuamente e permite movimentos laterais baseados no comando do jogador. Também acelera gradualmente a velocidade até atingir um máximo, onde para limitar a velocidade máxima utilizamos um if e else. 
-Reseta a posição e velocidade do jogador ao colidir com "Agent", utilizamos o OnCollisionEnter para voltar às posições iniciais e por último, reduzimos a velocidade do jogador ao entrar em contato com um "Obstacle".
+Reseta a posição e velocidade do jogador ao colidir com o agente, utilizamos o OnCollisionEnter para voltar às posições iniciais e por último, reduzimos a velocidade do jogador ao entrar em contato com um Obstáculo.
 
 <h3>Agent</h3>
+Código:
+
+using UnityEngine;
+
+public class agent : MonoBehaviour
+{
+    public Transform[] waypoints;
+    public float speed = 5f;
+    public float reachDistance = 0.5f; // Distância para considerar o waypoint alcançado
+
+    private int currentWaypointIndex = 0; // Índice do waypoint atual
+
+    private Quaternion defaultRotation;
+    private Vector3 defaultPosition;
+
+    void Start()
+    {
+        defaultRotation = transform.rotation;
+        defaultPosition = transform.position;
+    }
+    void Update()
+    {
+        FollowPath();
+    }
+
+    private void FollowPath()
+    {
+        // Verifica se há waypoints definidos, caso contrário não executa o método
+        if (waypoints.Length == 0) return;
+
+        // Pega o waypoint atual
+        Transform targetWaypoint = waypoints[currentWaypointIndex];
+
+        // Move em direção ao waypoint atual
+        Vector3 direction = (targetWaypoint.position - transform.position).normalized;
+        transform.position += direction * speed * Time.deltaTime;
+
+        // Rotaciona a viatura para olhar para o waypoint
+        transform.LookAt(targetWaypoint);
+
+        // Verifica se a viatura alcançou o waypoint
+        if (Vector3.Distance(transform.position, targetWaypoint.position) <= reachDistance)
+        {
+            currentWaypointIndex++; // Passa para o próximo waypoint
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            // Reseta a posição do agent para a posição inicial
+            resetPosition();
+        }
+    }
+
+    private void resetPosition()
+    {
+        transform.position = defaultPosition;
+        transform.rotation = defaultRotation;
+        currentWaypointIndex = 0;
+    }
+}
+
+Sobre:
+ 
+No códigodo agente temos as principais funções como : Movimento entre waypoints. Onde o agente se move continuamente em direção ao waypoint atual e rotaciona para "olhar" na direção do waypoint,para ele olhar para o waypoint utilizamos "lookAt".Também usamos detecção de colisão com o jogador, Se o agente colidir com um objeto marcado com a tag `"Player"`, ele retorna à sua posição e rotação iniciais e reinicia o percurso desde o primeiro waypoint e por fim, o reset do estado onde armazena a posição e rotação iniciais do agente para restaurar quando necessário.
 
 <h2>Paleta de cores</h2>
 As cores principais do jogador, dos obstáculos e da cidade são tons de cinza, marrom, verde, azul escuro e laranja. Sendo o cinza para representar o realismo e a seriedade que está presente na cena da fuga, o marrom que representa o conforto e segurança que o E.T. e Eliott sentem ao estar juntos, o verde representa a natureza, crescimento e esperança, o azul escuro o suspense, tensão e o mistério que tem no filme; e o laranja simbolizando o perigo, tensão e urgência dando à cena mais emoção e adrenalina.
