@@ -84,15 +84,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class player : MonoBehaviour
-{
-    public float speed;
-    public float lateralSpeed;
-    public float maxSpeed;
-    public float acceleration;
-    private Quaternion defaultRotation;
-    private Vector3 defaultPosition;
-    public float speedReduction;
+public class player : MonoBehaviour<br>
+{<br>
+    public float speed;<br>
+    public float lateralSpeed;<br>
+    public float maxSpeed;<br>
+    public float acceleration;<br>
+    private Quaternion defaultRotation;<br>
+    private Vector3 defaultPosition;<br>
+    public float speedReduction;<br>
 
     // Start is called before the first frame update
     void Start()
