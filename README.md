@@ -233,9 +233,14 @@ public class agent : MonoBehaviour
 
 Sobre:
  
-No códigodo agente temos as principais funções como : Movimento entre waypoints. Onde o agente se move continuamente em direção ao waypoint atual e rotaciona para "olhar" na direção do waypoint,para ele olhar para o waypoint utilizamos "lookAt". Também usamos detecção de colisão com o jogador, Se o agente colidir com um objeto marcado com a tag "Player", ele retorna à sua posição e rotação iniciais e reinicia o percurso desde o primeiro waypoint e por fim, o reset da posição inicial onde armazena a posição e rotação iniciais do agente para restaurar quando necessário.
+No código do agente temos as principais funções como: Movimento entre waypoints. Onde o agente se move continuamente em direção ao waypoint atual e rotaciona para "olhar" na direção do waypoint, para ele olhar para o waypoint utilizamos "lookAt". Também usamos detecção de colisão com o jogador. Se o agente colidir com um objeto marcado com a tag "Player", ele retorna à sua posição e rotação iniciais e reinicia o percurso desde o primeiro waypoint. Por fim, o reset da posição inicial onde armazena a posição e rotação iniciais do agente para restaurar quando necessário.
 
 <h3>Wall</h3>
+Código:
+
+
+Sobre:
+Utilizamos esse código nas paredes para que o jogador não saia para fora da pista, caso o jogador entre em colisão com a parede ele retorna à posição e rotação iniciais e reinicia o waypoint do agente recomeçando o jogo.
 
 <h2> Diagrama de classes</h2>
 <h3>Antigo:</h3>
