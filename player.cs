@@ -47,7 +47,7 @@ public class player : MonoBehaviour
         }
     }
 
-    private void resetPosition()
+    public void resetPosition()
     {
         transform.position = defaultPosition; // A posição inicial do jogador
         transform.rotation = defaultRotation;         // A rotação original
