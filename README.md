@@ -250,6 +250,9 @@ Utilizamos esse código nas paredes para que o jogador não saia para fora da pi
 ![IMG-20241201-WA0006.jpg](https://github.com/user-attachments/assets/4da36991-b0fa-4dec-9542-5e1038465c59)<br>
 
 <h3>Atualizado:</h3>
+<br>
+
+<img width="1648" alt="Untitled" src="https://github.com/user-attachments/assets/4a017d2c-7cd2-4ce2-9a75-dfde77f67fb4"><br>
 
 <h2>Paleta de cores</h2>
 As cores principais do jogador, dos obstáculos e da cidade são tons de cinza, marrom, verde, azul escuro e laranja. Sendo o cinza para representar o realismo e a seriedade que está presente na cena da fuga, o marrom que representa o conforto e segurança que o E.T. e Eliott sentem ao estar juntos, o verde representa a natureza, crescimento e esperança, o azul escuro o suspense, tensão e o mistério que tem no filme; e o laranja simbolizando o perigo, tensão e urgência dando à cena mais emoção e adrenalina.
@@ -260,8 +263,7 @@ As cores principais do jogador, dos obstáculos e da cidade são tons de cinza, 
 Cor: Azul escuro<br>
 Codigo hex:#353c81
 
-<img width="295" alt="image" src="https://github.com/user-attachments/assets/199f1889-793e-4fb3-956d-a169ce84f8a2">
-<br>
+<img width="295" alt="image" src="https://github.com/user-attachments/assets/199f1889-793e-4fb3-956d-a169ce84f8a2"><br>
 Cor: Cinza<br>
 Codigo hex:#72757a
 
