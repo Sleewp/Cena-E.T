@@ -303,6 +303,6 @@ https://sketchfab.com/3d-models/et-ofeksagivabed-45794dfae500422c928d0470dbaa591
 https://drive.google.com/file/d/1n4LsFPDpPa2OzNEKZQ0kDgJlY5d0BL_9/view?usp=drive_link
 <br>
 <h2>Relatório do trabalho</h2>
-<strong>Kauan:</strong> Responsável pelo jogo em si, mecânicas e parte lógica. (Fez os scripts, cenário no Unity, as mecânicas do jogo e os detalhes como decoração, ect).
+<strong>Kauan:</strong> Responsável pelo jogo em si, mecânicas e parte lógica. (Fez os scripts, cenário no Unity, as mecânicas do jogo e os detalhes como decoração, iluminação, etc).
 <br>
 <strong>Matheus:</strong> Responsável pela documentação e design. (Fez a documentação do GitHub, decidiu os assets/referências para o jogo e participou do processo criativo).
