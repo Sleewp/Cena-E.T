@@ -6,7 +6,7 @@ public class agent : MonoBehaviour
     public float speed = 5f;
     public float reachDistance = 0.5f; // Distância para considerar o waypoint alcançado
 
-    private int currentWaypointIndex = 0; // Índice do waypoint atual
+    public int currentWaypointIndex = 0; // Índice do waypoint atual
 
     private Quaternion defaultRotation;
     private Vector3 defaultPosition;
@@ -52,7 +52,7 @@ public class agent : MonoBehaviour
         }
     }
 
-    private void resetPosition()
+    public void resetPosition()
     {
         transform.position = defaultPosition;
         transform.rotation = defaultRotation;
