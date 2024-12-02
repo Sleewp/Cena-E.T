@@ -10,6 +10,7 @@ Pegar uma cena específica de um filme e transformar em uma cena na Unity.
 <h3>Cena desenvolvida</h3>
 A cena começa com uma introdução ilustrativa, mostrando várias imagens em sequência para contextualizar o jogador, mesmo que ele não tenha visto o filme. Em seguida, o cenário abre com Eliott e E.T. em uma bicicleta sendo perseguidos pelos agentes do governo no meio da cidade. O jogador deve desviar dos obstáculos e escolher o caminho correto para não ser capturado. Ao completar o percurso, o jogador chega a uma rua sem saída, bloqueada por viaturas e agentes do governo. Nesse momento uma cutscene é ativada, mostrando a cena do filme em que a bicicleta voa na frente do sol, marcando o fim do jogo.
 <br>
+<br>
 
 ![IMG-20241129-WA0027.jpg](https://github.com/user-attachments/assets/ebd7277e-1a8b-43a7-a566-78061f70d3af)
  
